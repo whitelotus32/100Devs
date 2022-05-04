@@ -7,7 +7,9 @@ section > h2 {
 }
 
 article > h2 {
-    color: red;
+    color: red !important;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 section > article > h2 {
