@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+header, section {
+    height: 100px;
+    width: 100%;
+    border: 3px solid black;
+    border-bottom: none;
+}
+
+body > article {
+    height: 100px;
+    width: 40%;
+    border: 3px solid black;
+    float: left;
+    border-right: none;
+}
+
+body > article + article {
+    height: 100px;
+    width: 60%;
+    border: 3px solid black;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    border: 3px solid black;
+    float: left;
+    border-top: none;
+}
