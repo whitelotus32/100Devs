@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    border: 3px solid black;
+}
+
+section {
+    height: 400px;
+    width: 20%;
+    border: 3px solid black;
+    float: left;
+    border-top: none;
+}
+
+#tanjiro {
+    width: 40%;
+    border-right: none;
+    border-left: none;
+}
+
+section + section + section + section {
+    border-left: none;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    border: 3px solid black;
+    float: left;
+    border-top: none;
+}
