@@ -7,4 +7,11 @@ addTwoNumbers(2,3)
 
 //create a function that multiplys three numbers and console logs the product
 
+function multiplyThreeNumbers(Tanjiro, Tengen, Nezuko){
+    const product = Tanjiro * Tengen * Nezuko
+    console.log(product)
+}
+
+multiplyThreeNumbers(2,3,4)
+
 //create a function that divides two numbers and returns the ???
